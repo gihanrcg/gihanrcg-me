@@ -10,18 +10,18 @@ class AboutSection extends Component {
                         <h2 className="mb-0">Gihan &nbsp;
                         <span className="text-primary">Siriwardhana</span>
                         </h2>
-                        <div class="">
-                            <i class="fas fa-map-marker-alt" />&nbsp;&nbsp; Malabe · Sri Lanka  <br />
-                            <i class="fas fa-mobile-alt" />&nbsp;&nbsp; +94 (0) 714914133 | +94 (0) 769338710 <br />
-                            <i class="fas fa-envelope" /> &nbsp;<a href="mailto:gihan.siriwardhana@studentpartner.com">gihan.siriwardhana@studentpartner.com</a>
+                        <div className="">
+                            <i className="fas fa-map-marker-alt" />&nbsp;&nbsp; Malabe · Sri Lanka  <br />
+                            <i className="fas fa-mobile-alt" />&nbsp;&nbsp; +94 (0) 714914133 | +94 (0) 769338710 <br />
+                            <i className="fas fa-envelope" /> &nbsp;<a href="mailto:gihan.siriwardhana@studentpartner.com">gihan.siriwardhana@studentpartner.com</a>
                             <br />
-                            <i class="fas fa-envelope" /> &nbsp;<a href="mailto:it17016230@my.sliit.lk">it17016230@my.sliit.lk</a>
+                            <i className="fas fa-envelope" /> &nbsp;<a href="mailto:it17016230@my.sliit.lk">it17016230@my.sliit.lk</a>
                         </div>
                     </div>
                     <br /><br /><br />
-                    <p class="lead mb-5">Problem solver, Leader, Tech Enthusiast, Public Speaker and a student who seeks
+                    <p className="lead mb-5">Problem solver, Leader, Tech Enthusiast, Public Speaker and a student who seeks
           opportunities to enhance and share knowledge in any possible.</p>
-                    <div class="social-icons" data-aos="flip-left" data-aos-duration="500" >
+                    <div className="social-icons" data-aos="flip-left" data-aos-duration="500" >
 
                         <SocialMediaIcon url="https://www.linkedin.com/in/gihan-saranga-siriwardhana/" icon="fab fa-linkedin-in" />
                         <SocialMediaIcon url="https://github.com/gihanrcg" icon="fab fa-github" />

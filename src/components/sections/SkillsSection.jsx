@@ -20,9 +20,9 @@ class SkillsSection extends Component {
 
                     <div className="cards-skill">
                         {
-                            languages.map((lan) => {
+                            languages.map((lan,key) => {
                                 return (
-                                    <div className="card-skill">
+                                    <div key={key} className="card-skill">
                                         <SkillCard icon={lan.icon} name={lan.name} />
                                     </div>
 
@@ -37,9 +37,9 @@ class SkillsSection extends Component {
 
                     <div className="cards-skill">
                         {
-                            tools.map((lan) => {
+                            tools.map((lan, key) => {
                                 return (
-                                    <div className="card-skill">
+                                    <div key={key} className="card-skill">
                                         <SkillCard icon={lan.icon} name={lan.name} />
                                     </div>
 
@@ -54,9 +54,9 @@ class SkillsSection extends Component {
 
                     <div className="cards-skill">
                         {
-                            other.map((lan) => {
+                            other.map((lan,key) => {
                                 return (
-                                    <div className="card-skill">
+                                    <div key={key} className="card-skill">
                                         <SkillCard icon={lan.icon} name={lan.name} />
                                     </div>
 

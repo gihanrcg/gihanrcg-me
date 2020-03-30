@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import MainPage from './components/main/MainPage';
+import 'aos/dist/aos.css'
 // import './App.css';
 
 function App() {

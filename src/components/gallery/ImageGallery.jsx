@@ -39,7 +39,7 @@ class ImageGallery extends Component {
                     {
                         images.map((ob, key) => {
                             return (
-                                <img src={ob} onClick={() => {
+                                <img alt="ob" key={key} src={ob} onClick={() => {
                                     this.imageClick(key);
                                 }} />
                             )

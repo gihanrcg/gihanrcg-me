@@ -7,7 +7,7 @@ class SkillCard extends Component {
             data-aos="fade-down" data-aos-duration="500"
             className="small-box dev-icons text-center">
 
-                <i class={`${this.props.icon} text-center`} />
+                <i className={`${this.props.icon} text-center`} />
                 <p>{this.props.name}</p>
 
             </div>
