@@ -5,7 +5,7 @@ class ProjectCard extends Component {
     render() {
         return (
             <div className="small-box" style={{ padding: '20px' }}>
-                <div data-aos="fade-left" data-aos-duration="500" className="row no-gutters">
+                <div data-aos="fade-left" data-aos-duration="500"   className="row no-gutters">
                     <div className="col-md-4">
                         <img src={this.props.image} className="card-img" alt="..." />
                     </div>

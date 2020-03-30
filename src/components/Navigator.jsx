@@ -35,7 +35,9 @@ class Navigator extends Component {
                             <li className="nav-item">
                                 <a className="nav-link js-scroll-trigger" href="#gallery">Gallery</a>
                             </li>
-                            
+                            <li className="nav-item">
+                                <a className="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                            </li>
                         </ul>
                     </div>
                 </nav>

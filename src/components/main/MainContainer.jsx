@@ -5,6 +5,7 @@ import EducationSection from '../sections/EducationSection';
 import SkillsSection from '../sections/SkillsSection';
 import GallerySection from '../sections/GallerySection';
 import PersonalProjectSection from '../sections/PersonalProjectSection';
+import ContactUsSection from '../sections/ContactUsSection';
 
 class MainContainer extends Component {
     render() {
@@ -16,6 +17,7 @@ class MainContainer extends Component {
                 <SkillsSection/>
                 <PersonalProjectSection/>
                 <GallerySection/>   
+                <ContactUsSection/>
             </div>
         );
     }
