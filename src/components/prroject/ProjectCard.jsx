@@ -16,7 +16,7 @@ class ProjectCard extends Component {
                             <p className="card-text"><small> Technologies Used : <b>{this.props.tech}</b></small></p>
                             {
                                 this.props.link &&
-                                <p className="card-text"><a href={this.props.link}> URL : <b>{this.props.link}</b></a></p>
+                                <p className="card-text"><a target="_blank" href={this.props.link}> URL : <b>{this.props.link}</b></a></p>
                             }
                             {
                                 this.props.online &&
